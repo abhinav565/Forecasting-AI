@@ -24,7 +24,7 @@ public class GeminiService {
     System.out.println("PostGres Call Successful");
     boolean isChat=!prompt.equals("")?true:false;
     //https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/quotas?inv=1&invt=AbyMVg&project=gen-lang-client-0277743407
-    String apiKey = "AIzaSyCpRx2rRxH9Gevoow4o-AOvFygGp0ogoNw";
+    String apiKey = "AIzaSyBCxmJmhQLtPXkHG27AkZnkmnc2_5FDmsY";
     if(!isChat) {
 //        prompt = isScheduler ? "by using above data Can you give forecast summary using this data only html no extra text starts from <html> and ends with </html>" : "Can you give me forecast in json for next month, product name and key observation";
         prompt ="Can you give me forecast in json for next month in this format({\n" +
